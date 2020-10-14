@@ -4,8 +4,8 @@ const cors = require('cors');
 const errorHandler = require('../api/errorHandler');
 const session = require('express-session');
 
-const userRouter = require('../users/user-router')
-const authRouter = require('../auth/auth-router')
+const userRouter = require('../users/userRouter')
+const authRouter = require('../auth/authRouter')
 
 const server = express();
 
